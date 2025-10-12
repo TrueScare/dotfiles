@@ -21,3 +21,8 @@ pacman -S waybar
 
 ## Description
 The Hyprland dir not only contains the hyprland config but also the theming for hyprpaper.
+
+## Theme
+
+- maincolor #ACF079
+- secondary #0F2523
