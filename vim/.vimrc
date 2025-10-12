@@ -6,6 +6,9 @@ set smartcase
 set showcmd
 set showmode
 set relativenumber
+set cursorline
+
+syntax on
 
 set wildmenu
 set wildmode=list:longest
@@ -14,3 +17,6 @@ filetype on
 syntax on
 
 set ts=4
+
+set clipboard=unnamedplus
+colorscheme quiet
