@@ -1,3 +1,23 @@
-you need gnu stow and git for this
+# Requirement
+- gnu stow
+- hyprland
+- waybar
+- git
+- hyprpaper
+
+## Installation
+```bash
 pacman -S stow
+```
+```bash
 pacman -S git
+```
+```bash
+pacman -S hyprpaper
+```
+```bash
+pacman -S waybar
+```
+
+## Description
+The Hyprland dir not only contains the hyprland config but also the theming for hyprpaper.
