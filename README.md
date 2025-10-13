@@ -26,3 +26,4 @@ The Hyprland dir not only contains the hyprland config but also the theming for 
 
 - maincolor #ACF079
 - secondary #0F2523
+- third #6ca65a
