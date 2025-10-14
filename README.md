@@ -32,8 +32,8 @@ The Hyprland dir not only contains the hyprland config but also the theming for 
 
 - #ACF079
 - #78AD5D
+- #6ca65a
 - #57824A
 - #345547
 - #1d372B
-- #6ca65a
 - #0F2523
