@@ -13,10 +13,13 @@ syntax on
 set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-filetype on
-syntax on
 
-set ts=4
+filetype on
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 set clipboard=unnamedplus
 colorscheme quiet
