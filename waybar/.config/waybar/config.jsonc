@@ -16,8 +16,7 @@
         "pulseaudio",
         "network",
         "battery",
-        "clock",
-        "tray"
+        "clock"
     ],
      //Modules configuration
      "hyprland/workspaces": {
@@ -91,10 +90,10 @@
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
     },
-    "clock": {
+     "clock": {
+        "format": "{:%H:%M - %d.%m.%Y}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
         "format": "{usage}% ",
