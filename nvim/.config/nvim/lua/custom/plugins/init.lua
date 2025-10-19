@@ -8,6 +8,17 @@ return {
 		---@module 'oil'
 		---@type oil.SetupOpts
 		opts = {},
+		config = function()
+			require("oil").setup({
+				view_options = {
+					show_hidden = true,
+					natural_order = true,
+					is_always_hidden = function(name, _)
+						return name == ".." or name == ".git"
+					end,
+				},
+			})
+		end,
 		-- Optional dependencies
 		dependencies = { { "nvim-mini/mini.icons", opts = {} } },
 		-- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
