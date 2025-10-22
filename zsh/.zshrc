@@ -11,3 +11,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 alias efn='nvim $(fzf --preview "bat --color=always --style=numbers --line-range=:500 {}")'
 alias vim='nvim'
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+
+eval "$(tmuxifier init -)"
