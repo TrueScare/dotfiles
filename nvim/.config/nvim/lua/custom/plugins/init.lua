@@ -43,4 +43,12 @@ return {
 			{ "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
 		},
 	},
+	{
+		"vim-test/vim-test",
+		vim.keymap.set("n", "<leader>Tt", ":TestNearest<CR>"),
+		vim.keymap.set("n", "<leader>TT", ":TestFile<CR>"),
+		vim.keymap.set("n", "<leader>Ta", ":TestSuite<CR>"),
+		vim.keymap.set("n", "<leader>Tl", ":TestLast<CR>"),
+		vim.keymap.set("n", "<leader>Tg", ":TestVisit<CR>"),
+	},
 }
